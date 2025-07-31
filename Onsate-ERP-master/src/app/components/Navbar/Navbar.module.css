@@ -1,0 +1,124 @@
+.upperDiv{
+    height: 57.5px;
+    background-color: #1D94C9;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upperDiv img{
+    cursor: pointer;
+}
+
+.divIcons{
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hoverIcons{
+    cursor: pointer;
+    display: flex;
+}
+
+.hoverIcons:hover path{
+    fill: #156F96;
+}
+
+
+
+.divTabs{
+    width: 1659px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.linkTabs{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #187CA8;
+    transition: 300ms;
+    animation: ease-in-out;
+    color: white;
+    user-select: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.linkTabs img{
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 300ms;
+    animation: ease-in-out;
+}
+
+.linkTabs img:hover{
+    background-color: #156f96;
+}
+
+.linkTabs p{
+    margin-left: 10px;
+    padding-right: 5px;
+}
+
+.lowerDiv{
+    height: 57.5px;
+    background-color: #1FA1DB;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.lowerNavLinks{
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    
+}
+
+.lowerNavLinks div{
+    display: flex;
+    padding: 0px 5px;
+    height: 100%;
+    align-items: center;
+    margin-right: 35px;
+    cursor: pointer;
+    transition: 300ms;
+    animation: ease-in-out;
+    font: 700;
+    font-size: 18px;
+}
+
+.lowerNavLinks div:hover{
+    background-color: #187CA8
+}
+
+
+
+.activeLink {
+    background-color: #187CA8; /* Cor do dropdown */
+  }
+
+
+.activeLinkTab {
+    background-color: rgba(255, 255, 255, 1); /* Cor do dropdown */
+    color: #12678b; /* Mantenha a cor do texto visível */
+}
+
+.activeLinkTab img{
+    background-color: #12678b;
+}
+
+.activeLinkTab img:hover{
+    background-color: #1fa7e2;
+}
+

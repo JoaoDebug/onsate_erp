@@ -1,0 +1,234 @@
+.main{
+  height: 100vh;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.tabela th {
+  border: 1px solid #00000070;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela td {
+  border: 1px solid #00000070;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela .checkbox {
+  text-align: center;
+}
+
+.tabela th {
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
+
+.tabela tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabela tr:hover {
+  background-color: #dbdbdb;
+}
+
+/* Estilo para a coluna Selecionar */
+.colunaSelecionar {
+  width: 50px; /* Largura reduzida para a coluna */
+}
+
+.colunaPrecoVenda {
+  width: 140px;
+}
+
+.tabela .colunaUnidade {
+  width: 20px;
+  text-align: center;
+}
+
+.tabela .colunaCodigo{
+  width: 50px;
+  text-align: center;
+}
+
+.colunaDescricao {
+  min-width: 200px; 
+  max-width: 200px;/* Defina um tamanho máximo */
+  overflow: hidden; /* Oculte o overflow */
+  text-overflow: ellipsis; /* Adicione reticências */
+  white-space: nowrap; /* Não quebre a linha */
+}
+
+/* Estilo para a linha selecionada */
+.selecionado {
+  border: 2px solid rgba(0, 0, 255, 0.7);
+}
+
+/* Estilo para a linha par */
+.linhaPar {
+  background-color: #d9d9d98f; /* Cor sólida */
+}
+
+/* Estilo para a linha ímpar */
+.linhaImpar {
+  background-color: rgba(233, 232, 232, 0.801); /* Cor com 28% de opacidade */
+}
+
+.paginacao {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.paginacao div {
+  margin-right: 8px;
+}
+
+.paginacao button {
+  padding: 0px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: transparent;
+  background-color: transparent;
+  margin-left: 5px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.paginacao button:hover {
+  background-color: #d9d9d9;
+  color: white;
+}
+
+.btnArrowLeft svg {
+  transform: rotate(180deg);
+  transform-origin: center; /* Alinha o ponto de rotação ao centro do SVG */
+}
+
+.paginacao button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+
+.controlList{
+  display: flex;
+  margin-top: 30px;
+}
+
+
+.inputSearch{
+  display: flex;
+  width: 1350px;
+  align-items: center;
+  height: 40px;
+  background-color: #D9D9D9;
+  padding-right: 10px;
+  border: 1px solid black;
+  padding-right: 5px;
+}
+
+.inputSearch svg{
+  margin-right: 0.1em;
+  cursor: pointer;
+  height: 100%;
+}
+
+.inputSearch svg:hover{
+  background-color: #c7c7c7;
+}
+
+.inputSearch input{
+  background-color: transparent;
+  padding-left: 0.1em;
+  flex: 1;
+}
+
+.inputSearch input:focus{
+  outline: none; 
+}
+
+.inputSearch input::placeholder {
+   color: black;/* Cor do placeholder (preto, por exemplo) */
+  opacity: 0.5; /* Opacidade (1 é totalmente opaco) */
+  font-weight: 600;
+}
+
+.filterDivInput{
+  display: flex;
+  align-items: center;
+  background-color: #cacaca;
+  height: 100%;
+  padding: 0px 8px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.filterDivInput img{
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.inputSearch:focus-within {
+  border: 2px solid black;
+}
+
+.iconsAction{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 45px;
+  background-color: #D9D9D9;
+  border: 1px solid black;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  background-color: #c7c7c7;
+}
+
+
+.dropDownSearch{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F1F1;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+.optionsFilter{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.optionsFilter img{
+  margin-right: 1em;
+}
+
+.optionsFilter:hover {
+  background-color: #cacaca !important;
+}
+
+.selected {
+  background-color: #cacaca;
+}

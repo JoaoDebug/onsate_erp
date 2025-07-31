@@ -1,0 +1,162 @@
+.main {
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstLineInput {
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondLineInputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.secondLineInputs div {
+  display: flex;
+}
+
+.thirdLineInputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thirdLineInputs div {
+  display: flex;
+}
+
+.adjustSpace{
+    min-width: 40px;
+}
+
+.inputWrapContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style Inputs */
+
+.formContainer form input {
+  border: 1.5px solid #00000070;
+  height: 38px;
+  padding: 0px 5px;
+  border-radius: 3px;
+  box-shadow: 
+  0 1.5px 1.5px rgba(0, 0, 0, 0.2), /* Sombra na parte inferior */
+  -1.5px 0 1.5px rgba(0, 0, 0, 0.2); /* Sombra na parte esquerda */
+}
+
+.formContainer form select {
+  border: 1.5px solid #00000070;
+  height: 38px;
+  padding: 0px 5px;
+  border-radius: 3px;
+  box-shadow: 
+  0 1.5px 1.5px rgba(0, 0, 0, 0.2), /* Sombra na parte inferior */
+  -1.5px 0 1.5px rgba(0, 0, 0, 0.2); /* Sombra na parte esquerda */
+}
+
+.formContainer form input:focus {
+  border: 2px solid rgb(59, 130, 246, 1);
+  outline: none;
+}
+
+.formContainer form select:focus{
+  border: 2px solid rgb(59, 130, 246, 1);
+  outline: none;
+}
+
+
+.descriptionInput {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.divInputIcon {
+  display: flex;
+  align-items: center;
+}
+
+.divInputIcon img {
+  margin-left: 5px;
+}
+
+.divInputIcon img:hover {
+  cursor: pointer;
+}
+
+.unityInput {
+  min-width: 110px;
+  max-width: 110px;
+}
+
+.barCodeInput {
+  max-width: 160px;
+}
+
+.ncmInput {
+  max-width: 180px;
+  min-width: 180px;
+}
+
+.ex_ncmInput {
+  max-width: 100px;
+  min-width: 100px
+}
+
+.cestIdInput {
+  max-width: 180px;
+  min-width: 180px;
+}
+
+.priceInput {
+  min-width: 150px;
+  max-width: 150px;
+}
+
+.groupInput {
+  min-width: 140px;
+  max-width: 140px;
+}
+
+.subGroupInput {
+  min-width: 140px;
+  max-width: 140px;
+}
+
+.reserved_stockInput,
+.stockInput,
+.gross_weightInput,
+.liquid_weightInput {
+  min-width: 160px;
+  max-width: 160px;
+}
+
+
+.errorMessage {
+  color: red;
+}
+
+
+.clearButton {
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  margin-left: 8px;
+  height: 100%;
+  padding: 5px 5px;
+  transition: .4s;
+}
+
+.clearButton:hover{
+  background-color: #cccccc;
+}

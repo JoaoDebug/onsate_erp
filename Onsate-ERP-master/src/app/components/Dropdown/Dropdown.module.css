@@ -1,0 +1,52 @@
+.expandDiv {
+    height: 240px;
+    width: 100%;
+    background-color: #187CA8;
+    position: absolute;
+    color: white;
+    display: flex;
+    padding: 20px 206px;
+    z-index: 20;
+}
+
+.container{
+    display: flex;
+
+}
+
+
+.containerRight{
+  margin-left: 150px;
+}
+
+
+
+.headerOptions {
+    display: flex;
+    align-items: center; /* Garante que todos os itens no headerOptions estejam centralizados */
+    margin-bottom: 15px; /* Mantenha esta margem consistente */
+}
+
+.headerOptions h1 {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    user-select: none;
+}
+
+.headerOptions div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.links div {
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.links div:hover {
+    text-decoration: underline;
+}
+
+

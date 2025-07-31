@@ -1,0 +1,25 @@
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* Fundo semi-transparente */
+  }
+  
+  .spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1); /* Círculo de fundo */
+    border-left-color: #187CA8; /* Cor do círculo giratório */
+    border-radius: 50%; /* Torna o elemento um círculo */
+    width: 50px; /* Largura do círculo */
+    height: 50px; /* Altura do círculo */
+    animation: spin 1s linear infinite; /* Animação de rotação */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg); /* Começa em 0 graus */
+    }
+    100% {
+      transform: rotate(360deg); /* Termina em 360 graus */
+    }
+  }

@@ -1,0 +1,58 @@
+.main {
+    padding: 0px 150px;
+}
+
+.container {
+    margin: auto;
+    background: white;
+    padding: 30px 55px;
+    height: 100%;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.titleButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controlSheetButtons {
+    display: flex;
+    align-items: center;
+}
+
+.controlSheetButtons img {
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.controlSheetButtons img:hover {
+    background-color: #1D94C9;
+}
+
+
+.activeTitle {
+    display: flex;
+    align-items: center;
+}
+
+.activeTitle input {
+    margin-left: 25px;
+
+}
+
+.activeTitle input[disabled], .activeTitle input.locked {
+    pointer-events: none; /* Impede qualquer interação do usuário */
+    opacity: 0.6; /* Diminui a opacidade para indicar que está travado */
+    cursor: not-allowed; /* Muda o cursor para indicar que não é possível interagir */
+  }
+  
+.activeTitle label {
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: 500;
+}

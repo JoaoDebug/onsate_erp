@@ -1,0 +1,75 @@
+/* styles.module.css */
+.divSelect {
+    position: relative; /* Torna o contêiner do input um contexto de posicionamento */
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .suggestionsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    max-height: 200px; /* Limita a altura do menu */
+    overflow-y: auto; /* Permite rolar */
+    position: absolute; /* Fixa a lista em relação ao contêiner */
+    top: 100%; /* Faz a lista aparecer logo abaixo do input */
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 2px; /* Espaço entre o input e o menu */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestionsList li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestionsList li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .suggestionsList li[aria-selected='true'] {
+    background-color: #bde4ff;
+  }
+
+  
+
+  .inputWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clearButton {
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 100%;
+    padding: 0px 3px;
+    transition: .4s;
+  }
+
+  .clearButton:hover{
+    background-color: #cccccc;
+  }
