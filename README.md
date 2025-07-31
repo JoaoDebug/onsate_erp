@@ -14,11 +14,11 @@ Atualmente, o sistema está em desenvolvimento e contará com funcionalidades co
 Primeiro, execute o servidor de desenvolvimento:
 
 npm run dev
-# ou
+ou
 yarn dev
-# ou
+ou
 pnpm dev
-# ou
+ou
 bun dev
 
 Abra http://localhost:3000 no seu navegador para ver o resultado.
