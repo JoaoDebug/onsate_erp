@@ -13,13 +13,13 @@ Atualmente, o sistema está em desenvolvimento e contará com funcionalidades co
 
 Primeiro, execute o servidor de desenvolvimento:
 
-npm run dev
-ou
-yarn dev
-ou
-pnpm dev
-ou
-bun dev
+- npm run dev
+
+- yarn dev
+
+- pnpm dev
+
+- bun dev
 
 Abra http://localhost:3000 no seu navegador para ver o resultado.
 Você pode começar a editar a página modificando app/page.tsx. A página é atualizada automaticamente à medida que você edita o arquivo.
